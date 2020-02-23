@@ -20,6 +20,11 @@ p {
   .print-visible {
     display: initial !important;
   }
+
+  a:link:after, a:visited:after {
+    content: "";
+}
+
 }
 
 #contact-info i {
